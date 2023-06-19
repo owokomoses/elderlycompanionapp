@@ -9,52 +9,34 @@
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/layout_password"
-        android:layout_width="378dp"
-        android:layout_height="60dp"
+        android:layout_width="360dp"
+        android:layout_height="47dp"
+        android:background="@drawable/et_custom"
         android:drawableStart="@drawable/baseline_lock_24"
         android:hint="Password"
-        android:textColor="@color/black"
         android:inputType="textPassword"
-        android:background="#7385E6"
-        android:textStyle="bold"
-        android:textColorHint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721" />
-
-    <TextView
-        android:id="@+id/Text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:minHeight="48dp"
-        android:onClick="goTosignupActivity"
-        android:text="Not Registered Yet signup!"
         android:textColor="@color/black"
-        android:textStyle="bold"
+        android:textColorHint="#5B5858"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.997" />
+        app:layout_constraintVertical_bias="0.651" />
 
     <Button
         android:id="@+id/btn_signin"
-        android:layout_width="315dp"
-        android:layout_height="56dp"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
         android:layout_marginHorizontal="16dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#2196F3"
         android:text="SIGN IN"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.819" />
+        app:layout_constraintVertical_bias="0.851" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -66,38 +48,72 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.042"
-        app:srcCompat="@drawable/login_logo" />
+        app:srcCompat="@drawable/image_two" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/layout_name"
-        android:layout_width="378dp"
-        android:layout_height="60dp"
+        android:layout_width="362dp"
+        android:layout_height="49dp"
+        android:background="@drawable/et_custom"
         android:drawableStart="@drawable/baseline_person_24"
-        android:hint="Name"
-        android:textColorHint="@color/white"
-        android:background="#7385E6"
-        android:textColor="@color/black"
+        android:hint="Username"
         android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#5B5858"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <LinearLayout
+        android:layout_width="301dp"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        android:tag="Not Registered Yet signup!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Not Registered Yet "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/text_signup"
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="signup!"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:text=" signup!" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="274dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="42dp"
+        android:text="Forgot password?"
+        android:textColor="#2196F3"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintHorizontal_bias="0.035"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
-
-    <Button
-        android:id="@+id/btn_signup"
-        android:layout_width="315dp"
-        android:layout_height="56dp"
-        android:layout_marginHorizontal="16dp"
-        android:backgroundTint="@color/black"
-        android:text="SIGN UP"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.893" />
+        app:layout_constraintVertical_bias="0.737" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
