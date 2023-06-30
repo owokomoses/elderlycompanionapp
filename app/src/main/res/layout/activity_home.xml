@@ -11,7 +11,7 @@
         android:id="@+id/title_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ELDERLY COMPANION CARE"
+        android:text="@string/elderly_companion_care"
         android:textColor="#fff"
         android:textStyle="bold"
         android:textSize="30sp"
@@ -22,14 +22,83 @@
         app:layout_constraintVertical_bias="0.046" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="192dp"
-        android:layout_height="196dp"
+        android:id="@+id/lab_test"
+        android:layout_width="164dp"
+        android:layout_height="162dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.307"
-        app:srcCompat="@drawable/labtest" />
+        app:layout_constraintVertical_bias="0.254"
+        app:srcCompat="@drawable/labtest"
+        tools:ignore="ContentDescription,HardcodedText" />
 
+    <ImageView
+        android:id="@+id/buy_medicine"
+        android:layout_width="164dp"
+        android:layout_height="162dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254"
+        app:srcCompat="@drawable/medicine"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/find_doctor"
+        android:layout_width="164dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="400dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/doctor"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <ImageView
+        android:id="@+id/order_details"
+        android:layout_width="164dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/order"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/health_articles"
+        android:layout_width="164dp"
+        android:layout_height="162dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863"
+        app:srcCompat="@drawable/health"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="164dp"
+        android:layout_height="162dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863"
+        app:srcCompat="@drawable/logout"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -22,7 +22,8 @@
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.742" />
+        app:layout_constraintVertical_bias="0.742"
+        tools:ignore="HardcodedText" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/layout_password2"
@@ -39,7 +40,8 @@
         app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
+        app:layout_constraintVertical_bias="0.645"
+        tools:ignore="HardcodedText" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/layout_email"
@@ -47,7 +49,7 @@
         android:layout_height="60dp"
         android:background="@drawable/et_custom"
         android:drawableStart="@drawable/baseline_email_24"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:textColor="@color/black"
         android:textColorHint="#5B5858"
@@ -63,7 +65,7 @@
         android:layout_width="378dp"
         android:layout_height="60dp"
         android:drawableStart="@drawable/baseline_person_24"
-        android:hint="Name"
+        android:hint="@string/name"
         android:textColor="@color/black"
         android:textColorHint="#5B5858"
         android:background="@drawable/et_custom"

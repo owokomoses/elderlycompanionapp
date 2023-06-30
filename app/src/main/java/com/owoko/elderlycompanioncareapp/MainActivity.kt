@@ -1,26 +1,30 @@
 package com.owoko.elderlycompanioncareapp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import org.w3c.dom.Text
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
-    lateinit var text_sign: TextView
+    lateinit var textsign: TextView
+    lateinit var signinbtn:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        text_sign = findViewById(R.id.text_signup)
+        textsign = findViewById(R.id.text_signup)
+        signinbtn=findViewById(R.id.btn_signin)
 
-        text_sign.setOnClickListener {
+        textsign.setOnClickListener {
             val intent = Intent(this, signupActivity::class.java)
             startActivity(intent)
 
 
+        }
+        signinbtn.setOnClickListener {
+            val intent=Intent (this,HomeActivity::class.java)
+            startActivity(intent)
         }
 
     }
