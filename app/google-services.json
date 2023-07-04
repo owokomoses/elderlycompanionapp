@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "921403504289",
+    "project_id": "elderly-companion-care",
+    "storage_bucket": "elderly-companion-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921403504289:android:ac1684c611bfb1a734a2e0",
+        "android_client_info": {
+          "package_name": "com.example.elderlycompanioncare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYu4QfSR5EC6M-Ho45m38rjD-J5BCH1kY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921403504289:android:d448ccaa8cdbd02634a2e0",
+        "android_client_info": {
+          "package_name": "com.owoko.elderlycompanioncareapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYu4QfSR5EC6M-Ho45m38rjD-J5BCH1kY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
