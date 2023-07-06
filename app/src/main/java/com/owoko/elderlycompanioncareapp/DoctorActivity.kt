@@ -1,12 +1,11 @@
 package com.owoko.elderlycompanioncareapp
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 
-class LabtestActivity : AppCompatActivity() {
+class DoctorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_labtest)
-
+        setContentView(R.layout.activity_doctor)
     }
 }

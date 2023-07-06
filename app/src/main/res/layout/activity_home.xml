@@ -36,7 +36,7 @@
         tools:ignore="ContentDescription,HardcodedText" />
 
     <ImageView
-        android:id="@+id/buy_medicine"
+        android:id="@+id/medicine"
         android:layout_width="164dp"
         android:layout_height="162dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,7 +45,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.254"
-        app:srcCompat="@drawable/medicine"
+        app:srcCompat="@drawable/med"
         tools:ignore="ContentDescription" />
 
     <ImageView
@@ -58,7 +58,7 @@
         app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/doctor"
+        app:srcCompat="@drawable/doc"
         tools:ignore="ContentDescription,HardcodedText" />
 
     <ImageView
@@ -72,7 +72,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/order"
+        app:srcCompat="@drawable/details"
         tools:ignore="ContentDescription,ImageContrastCheck" />
 
     <ImageView
